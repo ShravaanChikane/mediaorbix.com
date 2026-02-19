@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights & Knowledge | Mediaorbix</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Why is React better for custom web development?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "React allows for the creation of highly dynamic, fast-loading user interfaces. At Mediaorbix, we use React to build scalable platforms that load instantly, which directly increases user retention and conversion rates."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How do viral Instagram Reels increase sales?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Viral Reels leverage short-form algorithmic reach to push your brand to non-followers. Mediaorbix engineers hooks and cinematic visuals that capture attention and drive traffic to optimized conversion funnels."
+        }
+      }]
+    }
+    </script>
+
+    <style>
+        .search-box {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto 48px auto;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 18px 24px;
+            border-radius: 50px;
+            background: #170B24;
+            border: 1px solid #2E1A47;
+            color: #FFFFFF;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .search-input:focus {
+            border-color: #D4AF37;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+
+        .tag-tech {
+            background: rgba(212, 175, 55, 0.1);
+            color: #D4AF37;
+        }
+
+        .tag-media {
+            background: rgba(169, 158, 181, 0.1);
+            color: #A99EB5;
+        }
+
+        .tag-social {
+            background: rgba(56, 189, 248, 0.1);
+            color: #38BDF8;
+        }
+
+        /* Neon Blue for Social */
+        .tag-strategy {
+            background: rgba(34, 197, 94, 0.1);
+            color: #22C55E;
+        }
+
+        /* Emerald Green for Strategy */
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Media<span>orbix</span></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            <a href="insights.html" class="active">Insights</a>
+            <button id="openLoginModal"
+                style="color: #D4AF37; border: 1px solid rgba(212,175,55,0.3); padding: 8px 16px; border-radius: 6px; margin-left: 32px; font-weight: 800; background: rgba(212,175,55,0.05); cursor: pointer;">Client
+                Login</button>
+        </nav>
+    </header>
+
+    <main class="container fade-in" style="padding-top: 100px;">
+        <div class="text-center" style="margin-bottom: 40px;">
+            <h1 style="font-size: 56px; margin-bottom: 16px; color: #FFFFFF;">Mediaorbix <span
+                    style="color: #D4AF37;">Intelligence</span></h1>
+            <p style="color: #A99EB5; font-size: 18px;">Expert answers on software engineering, viral production, and
+                digital scaling.</p>
+        </div>
+
+        <div class="search-box text-center">
+            <input type="text" id="insightSearch" class="search-input"
+                placeholder="Search insights, tech, or production...">
+        </div>
+
+        <div id="noResults" class="text-center" style="display: none; padding: 40px; color: #A99EB5; font-size: 18px;">
+            No insights found matching your search. <a href="contact.html"
+                style="color: #D4AF37; text-decoration: none;">Ask our team directly &rarr;</a>
+        </div>
+
+        <div class="grid-3">
+
+            <article class="card">
+                <span class="tag tag-tech">Software Engineering</span>
+                <h3 style="font-size: 20px;">Why React outperforms traditional templates</h3>
+                <p style="margin-bottom: 16px;">Templates are bloated and slow. Custom React builds are modular, meaning
+                    they load instantly and rank higher on Google due to superior Core Web Vitals.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Discuss your tech
+                    stack &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-media">Viral Production</span>
+                <h3 style="font-size: 20px;">The 3-Second Hook Rule for Reels</h3>
+                <p style="margin-bottom: 16px;">If your video doesn't change visually or establish high stakes within
+                    the first 3 seconds, the user will scroll. We engineer retention into every script.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Book a production
+                    shoot &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-tech">Agency Strategy</span>
+                <h3 style="font-size: 20px;">Why dual-domain agencies save you money</h3>
+                <p style="margin-bottom: 16px;">Hiring separate dev and marketing teams leads to communication
+                    breakdowns. Mediaorbix builds the funnel and shoots the content that fills it, reducing overhead.
+                </p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Get a unified
+                    proposal &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-tech">Software Engineering</span>
+                <h3 style="font-size: 20px;">Headless E-commerce: Shopify + Next.js</h3>
+                <p style="margin-bottom: 16px;">Decoupling your front-end from your Shopify backend allows for
+                    lightning-fast load times and completely custom 3D luxury shopping experiences.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Upgrade your store
+                    &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-tech">Software Engineering</span>
+                <h3 style="font-size: 20px;">Why Page Speed Kills Conversions</h3>
+                <p style="margin-bottom: 16px;">Amazon found that every 100ms of latency costs them 1% in sales. We
+                    engineer lightweight codebases that keep your bounce rates near zero.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Audit your speed
+                    &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-tech">Software Engineering</span>
+                <h3 style="font-size: 20px;">Custom Web Apps vs. SaaS Subscriptions</h3>
+                <p style="margin-bottom: 16px;">Stop paying $2,000/month for clunky CRM software. Building a bespoke
+                    internal dashboard scales with your business and eliminates monthly licensing fees.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Build your app
+                    &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-tech">Software Engineering</span>
+                <h3 style="font-size: 20px;">Securing User Data in 2026</h3>
+                <p style="margin-bottom: 16px;">With data compliance strictly enforced, your web platforms need modern
+                    encryption. We build zero-trust architectures to protect your client data.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Secure your
+                    platform &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-tech">Software Engineering</span>
+                <h3 style="font-size: 20px;">The Role of Micro-Interactions in UX</h3>
+                <p style="margin-bottom: 16px;">Hover effects, skeleton loaders, and smooth page transitions don't just
+                    look good—they trigger dopamine and guide users seamlessly to the checkout button.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Enhance your UI
+                    &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-tech">Software Engineering</span>
+                <h3 style="font-size: 20px;">API Integrations for Automated Funnels</h3>
+                <p style="margin-bottom: 16px;">Your website should talk to your email list, your ads, and your sales
+                    team instantly. We wire custom APIs to automate your entire lead flow.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Automate your tech
+                    &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-tech">Software Engineering</span>
+                <h3 style="font-size: 20px;">Mobile-First Architecture is Non-Negotiable</h3>
+                <p style="margin-bottom: 16px;">Over 80% of social traffic is mobile. If your platform isn't engineered
+                    for thumb-scrolling and native mobile gestures, you are losing money.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Go mobile-first
+                    &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-tech">Software Engineering</span>
+                <h3 style="font-size: 20px;">Database Scaling: SQL vs NoSQL</h3>
+                <p style="margin-bottom: 16px;">Choosing the wrong database architecture creates massive tech debt. We
+                    analyze your data structure before writing a single line of code.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Consult our
+                    engineers &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-media">Viral Production</span>
+                <h3 style="font-size: 20px;">Cinema Cameras vs. iPhone Reels</h3>
+                <p style="margin-bottom: 16px;">iPhones are great for raw UGC, but to command premium pricing, your
+                    brand needs the depth of field, dynamic range, and color science of cinema glass.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Book a cinema
+                    shoot &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-media">Viral Production</span>
+                <h3 style="font-size: 20px;">Sound Design is 50% of the Experience</h3>
+                <p style="margin-bottom: 16px;">Crisp lavalier audio, atmospheric risers, and heavy bass hits are what
+                    actually make a video feel "expensive." Bad audio kills great visuals.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Hear the
+                    difference &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-media">Viral Production</span>
+                <h3 style="font-size: 20px;">Lighting for Luxury Brands</h3>
+                <p style="margin-bottom: 16px;">Flat lighting looks cheap. We use negative fill, edge lights, and
+                    diffusion to sculpt shadows and give your products a high-end, dramatic look.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Elevate your
+                    visuals &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-media">Viral Production</span>
+                <h3 style="font-size: 20px;">Why B-Roll is Your Best Salesman</h3>
+                <p style="margin-bottom: 16px;">People buy with their eyes. Cinematic slow-motion sequences of your
+                    product in action trigger emotional buying decisions faster than a talking head.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Capture stunning
+                    B-Roll &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-media">Viral Production</span>
+                <h3 style="font-size: 20px;">The Psychology of Color Grading</h3>
+                <p style="margin-bottom: 16px;">Teal and orange makes skin pop. Deep greens signal wealth. We
+                    custom-grade your footage in DaVinci Resolve to subconsciously influence your viewers.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Grade your next
+                    project &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-media">Viral Production</span>
+                <h3 style="font-size: 20px;">Subtitles & Typography in Video</h3>
+                <p style="margin-bottom: 16px;">85% of social media videos are watched without sound. Dynamic, animated
+                    subtitles are mandatory to keep viewers reading and engaged.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Edit for retention
+                    &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-media">Viral Production</span>
+                <h3 style="font-size: 20px;">Storyboarding Your Brand Narrative</h3>
+                <p style="margin-bottom: 16px;">We never hit record without a plan. Pre-production storyboarding ensures
+                    every angle serves a purpose in your ultimate marketing funnel.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Plan your
+                    production &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-social">Social Growth</span>
+                <h3 style="font-size: 20px;">Mastering the Instagram Algorithm</h3>
+                <p style="margin-bottom: 16px;">The algorithm doesn't reward followers; it rewards watch time and
+                    shares. We engineer content specifically designed to hit the 'Explore' page.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Scale your
+                    accounts &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-social">Social Growth</span>
+                <h3 style="font-size: 20px;">Engagement Rate > Follower Count</h3>
+                <p style="margin-bottom: 16px;">10,000 hyper-engaged fans will out-buy 100,000 ghost followers every
+                    time. We focus on building a cult community, not vanity metrics.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Build your
+                    community &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-social">Social Growth</span>
+                <h3 style="font-size: 20px;">The Anatomy of a High-Converting CTA</h3>
+                <p style="margin-bottom: 16px;">"Link in bio" doesn't work anymore. We use specific verbal triggers and
+                    visual cues to funnel viewers directly from Reels into your web platform.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Optimize your
+                    conversions &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-social">Social Growth</span>
+                <h3 style="font-size: 20px;">Repurposing Long-Form Content</h3>
+                <p style="margin-bottom: 16px;">We shoot one master podcast or documentary, and our editors slice it
+                    into 30 optimized micro-assets for TikTok, Shorts, and Reels to maximize ROI.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Multiply your
+                    content &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-social">Social Growth</span>
+                <h3 style="font-size: 20px;">Community Management as PR</h3>
+                <p style="margin-bottom: 16px;">How you reply to comments dictates your brand voice. Our social managers
+                    act as digital concierges, turning casual commenters into loyal clients.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Outsource your
+                    management &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-strategy">Agency Strategy</span>
+                <h3 style="font-size: 20px;">Lowering CAC with Cinematic Video</h3>
+                <p style="margin-bottom: 16px;">High-end video assets drastically lower your Customer Acquisition Cost
+                    on Facebook and Meta ads because they stop the scroll faster than static images.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Lower your ad
+                    spend &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-strategy">Agency Strategy</span>
+                <h3 style="font-size: 20px;">Future-Proofing Your Digital Architecture</h3>
+                <p style="margin-bottom: 16px;">We build modular codebases and timeless visual assets so you aren't
+                    forced into a massive, expensive rebranding project every three years.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Future-proof your
+                    brand &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-strategy">Agency Strategy</span>
+                <h3 style="font-size: 20px;">The Hidden Cost of Tech Debt</h3>
+                <p style="margin-bottom: 16px;">Patching broken plugins on a cheap website costs more in lost sales and
+                    dev hours than building it correctly with modern frameworks from day one.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Audit your tech
+                    stack &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-strategy">Agency Strategy</span>
+                <h3 style="font-size: 20px;">Omnichannel Marketing in 2026</h3>
+                <p style="margin-bottom: 16px;">Your app, your website, and your social feeds must speak the exact same
+                    visual language. Mediaorbix acts as the central command for your entire aesthetic.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Unify your brand
+                    &rarr;</a>
+            </article>
+
+            <article class="card">
+                <span class="tag tag-strategy">Agency Strategy</span>
+                <h3 style="font-size: 20px;">The Mediaorbix Dual-Domain Advantage</h3>
+                <p style="margin-bottom: 16px;">When the engineers writing your code sit across the desk from the
+                    directors shooting your content, you get a seamless, unbreakable conversion funnel.</p>
+                <a href="contact.html"
+                    style="color: #D4AF37; text-decoration: none; font-size: 14px; font-weight: 600;">Partner with us
+                    &rarr;</a>
+            </article>
+        </div>
+    </main>
+
+    <footer style="background: #0f172a; padding: 80px 5% 40px 5%; border-top: 1px solid #2E1A47; margin-top: 80px;">
+        <div class="container"
+            style="padding: 0; margin-bottom: 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; text-align: left;">
+            <div>
+                <a href="index.html" class="logo"
+                    style="margin-bottom: 16px; display: block;">Media<span>orbix</span></a>
+                <p style="color: #94a3b8; font-size: 14px; margin-bottom: 24px;">Your strategic partner for custom web
+                    development, digital marketing, and enterprise software solutions.</p>
+            </div>
+            <div>
+                <h4 style="color: #fff; margin-bottom: 16px;">Services</h4>
+                <ul style="list-style: none; padding: 0; margin: 0; color: #94a3b8; line-height: 2.2; font-size: 14px;">
+                    <li><a href="services.html" style="color: #94a3b8; text-decoration: none;">Web Development</a></li>
+                    <li><a href="services.html" style="color: #94a3b8; text-decoration: none;">Digital Marketing</a>
+                    </li>
+                    <li><a href="services.html" style="color: #94a3b8; text-decoration: none;">Custom CRM</a></li>
+                    <li><a href="services.html" style="color: #94a3b8; text-decoration: none;">Mobile Apps</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="color: #fff; margin-bottom: 16px;">Company</h4>
+                <ul style="list-style: none; padding: 0; margin: 0; color: #94a3b8; line-height: 2.2; font-size: 14px;">
+                    <li><a href="about.html" style="color: #94a3b8; text-decoration: none;">About Us</a></li>
+                    <li><a href="contact.html" style="color: #94a3b8; text-decoration: none;">Contact</a></li>
+                    <li><a href="privacy.html" style="color: #94a3b8; text-decoration: none;">Privacy Policy</a></li>
+                    <li><a href="terms.html" style="color: #94a3b8; text-decoration: none;">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="color: #fff; margin-bottom: 16px;">Get in Touch</h4>
+                <p style="color: #94a3b8; font-size: 14px; margin-bottom: 8px;">hello@mediaorbix.com</p>
+                <p style="color: #94a3b8; font-size: 14px;">+1 (555) 123-4567</p>
+            </div>
+        </div>
+        <div
+            style="border-top: 1px solid #2E1A47; padding-top: 24px; text-align: center; color: #64748b; font-size: 14px;">
+            <p>&copy; 2026 Mediaorbix. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        document.querySelector('.container').classList.add('visible');
+    </script>
+    <script>
+        const searchInput = document.getElementById('insightSearch');
+        const articles = document.querySelectorAll('.grid-3 article');
+        const noResultsMsg = document.getElementById('noResults');
+
+        if(searchInput) {
+            searchInput.addEventListener('input', function(e) {
+                const searchTerm = e.target.value.toLowerCase();
+                let visibleCount = 0;
+
+                articles.forEach(article => {
+                    // Grab the text from the tag, title, and paragraph
+                    const tag = article.querySelector('.tag').textContent.toLowerCase();
+                    const title = article.querySelector('h3').textContent.toLowerCase();
+                    const text = article.querySelector('p').textContent.toLowerCase();
+
+                    // Check if the search term exists in any of them
+                    if (tag.includes(searchTerm) || title.includes(searchTerm) || text.includes(searchTerm)) {
+                        article.style.display = ''; // Show it (restores default grid behavior)
+                        // Add a tiny animation for a smooth snap
+                        article.style.animation = 'fadeIn 0.3s ease-in-out'; 
+                        visibleCount++;
+                    } else {
+                        article.style.display = 'none'; // Hide it
+                    }
+                });
+
+                // Show or hide the "No results" message
+                if (visibleCount === 0) {
+                    noResultsMsg.style.display = 'block';
+                } else {
+                    noResultsMsg.style.display = 'none';
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Mediaorbix is a premier dual-domain agency specializing in high-end software development and cinematic video production. We build platforms and command attention.">
+    <meta name="keywords"
+        content="web development, video production, reels agency, social media management, software engineering, Mediaorbix">
+
+    <meta property="og:title" content="Mediaorbix | Code Meets Cinema">
+    <meta property="og:description" content="Custom web development and viral media production under one roof.">
+    <meta property="og:image" content="assets/social-preview.jpg">
+    <meta property="og:url" content="https://www.mediaorbix.com">
+    <meta property="og:type" content="website">
+    <title>Contact | Mediaorbix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Media<span>orbix</span></a>
+        <button class="mobile-menu-btn">☰</button>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="insights.html">Insights</a>
+            <button id="openLoginModal" style="color: #D4AF37; border: 1px solid rgba(212,175,55,0.3); padding: 8px 16px; border-radius: 6px; margin-left: 32px; font-weight: 800; background: rgba(212,175,55,0.05); cursor: pointer; font-family: 'Inter', sans-serif;">Client Login</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+            <h1 style="font-size: 48px; margin-bottom: 16px;">Let's build <span style="color: #D4AF37;">together.</span>
+            </h1>
+            <p style="color:#A99EB5; font-size: 18px; margin-bottom: 40px;">Ready to modernize your digital presence?
+                Drop us a line and our team will get back to you within 24 hours.</p>
+
+            <form id="contactForm" class="card" style="text-align: left;">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Work Email</label>
+                    <input type="email" id="email" name="email" placeholder="john@company.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">What do you need help with?</label>
+                    <input type="text" id="service" name="service" placeholder="e.g., New Website, CRM setup" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Project Details</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us a little about your goals..."
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn-primary" style="width: 100%;" id="submitBtn">Send Message</button>
+                <p id="formStatus" style="margin-top: 16px; text-align: center; font-weight: 600;"></p>
+            </form>
+        </div>
+    </main>
+
+    <footer style="background: #0f172a; padding: 80px 5% 40px 5%; border-top: 1px solid #2E1A47; margin-top: 80px;">
+        <div class="container"
+            style="padding: 0; margin-bottom: 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; text-align: left;">
+            <div>
+                <a href="index.html" class="logo"
+                    style="margin-bottom: 16px; display: block;">Media<span>orbix</span></a>
+                <p style="color: #A99EB5; font-size: 14px; margin-bottom: 24px;">Your strategic partner for custom web
+                    development, digital marketing, and enterprise software solutions.</p>
+            </div>
+            <div>
+                <h4 style="color: #fff; margin-bottom: 16px;">Services</h4>
+                <ul
+                    style="list-style: none; padding: 0; margin: 0; color: #A99EB5  ; line-height: 2.2; font-size: 14px;">
+                    <li><a href="services.html" style="color: #A99EB5; text-decoration: none;">Web Development</a></li>
+                    <li><a href="services.html" style="color: #A99EB5; text-decoration: none;">Digital Marketing</a>
+                    </li>
+                    <li><a href="services.html" style="color: #A99EB5; text-decoration: none;">Custom CRM</a></li>
+                    <li><a href="services.html" style="color: #A99EB5; text-decoration: none;">Mobile Apps</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="color: #fff; margin-bottom: 16px;">Company</h4>
+                <ul style="list-style: none; padding: 0; margin: 0; color: #A99EB5; line-height: 2.2; font-size: 14px;">
+                    <li><a href="about.html" style="color: #A99EB5; text-decoration: none;">About Us</a></li>
+                    <li><a href="contact.html" style="color: #A99EB5; text-decoration: none;">Contact</a></li>
+                    <li><a href="#" style="color: #A99EB5; text-decoration: none;">Privacy Policy</a></li>
+                    <li><a href="#" style="color: #A99EB5; text-decoration: none;">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="color: #fff; margin-bottom: 16px;">Get in Touch</h4>
+                <p style="color: #A99EB5; font-size: 14px; margin-bottom: 8px;">hello@mediaorbix.com</p>
+                <p style="color: #A99EB5; font-size: 14px;">+1 (555) 123-4567</p>
+            </div>
+        </div>
+        <div
+            style="border-top: 1px solid #2E1A47; padding-top: 24px; text-align: center; color: #64748b; font-size: 14px;">
+            <p>&copy; 2026 Mediaorbix. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', async function (e) {
+            e.preventDefault(); // Prevent page reload
+
+            const btn = document.getElementById('submitBtn');
+            const statusText = document.getElementById('formStatus');
+
+            btn.innerText = 'Sending...';
+            btn.disabled = true;
+
+            // Gather form data
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                service: document.getElementById('service').value,
+                message: document.getElementById('message').value
+            };
+
+            try {
+                const response = await fetch('http://localhost:3000/api/contact', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData)
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    statusText.style.color = '#D4AF37'; // Accent gold
+                    statusText.innerText = result.success;
+                    this.reset(); // Clear the form
+                } else {
+                    statusText.style.color = '#ef4444'; // Red for error
+                    statusText.innerText = result.error;
+                }
+            } catch (error) {
+                statusText.style.color = '#ef4444';
+                statusText.innerText = 'Server error. Please make sure the backend is running.';
+            } finally {
+                btn.innerText = 'Send Message';
+                btn.disabled = false;
+            }
+        });
+    </script>
+    <script>
+        // Mobile Menu Toggle
+        const menuBtn = document.querySelector('.mobile-menu-btn');
+        const nav = document.querySelector('nav');
+        if (menuBtn) {
+            menuBtn.addEventListener('click', () => nav.classList.toggle('active'));
+        }
+
+        // Scroll Fade-In Animation
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.card, section, .fade-in').forEach((el) => {
+            el.classList.add('fade-in');
+            observer.observe(el);
+        });
+    </script>
+    
+</body>
+
+</html>
